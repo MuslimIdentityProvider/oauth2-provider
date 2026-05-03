@@ -69,4 +69,10 @@ class MuslimID extends AbstractProvider
     {
         return ' ';
     }
+
+    #[Override]
+    protected function getPkceMethod(): string
+    {
+        return 'S256';
+    }
 }
