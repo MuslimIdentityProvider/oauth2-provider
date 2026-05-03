@@ -1,0 +1,19 @@
+{
+    "name": "muslimid/oauth2-provider",
+    "type": "library",
+    "require": {
+        "league/oauth2-client": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "MuslimID\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Merdin Kahrimanović",
+            "email": "me@merdin.dev"
+        }
+    ],
+    "minimum-stability": "stable"
+}
