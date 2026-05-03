@@ -63,4 +63,10 @@ class MuslimID extends AbstractProvider
     {
         return new MuslimIDResourceOwner($response);
     }
+
+    #[Override]
+    protected function getScopeSeparator()
+    {
+        return ' ';
+    }
 }
